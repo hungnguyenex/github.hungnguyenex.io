@@ -1,0 +1,26 @@
+{
+  "homepage": "https://hungnguyenex.github.io/github.hungnguyenex.io/",
+  "name": "web3modal-wagmi-html",
+  "private": true,
+  "version": "2.7.1",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build":"react-scripts build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@wagmi/core": "1.3.9",
+    "@web3modal/ethereum": "2.7.1",
+    "@web3modal/html": "2.7.1",
+    "viem": "1.6.0",
+    "react": "16.8.2",
+    "react-dom": "16.8.2",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "vite": "4.4.9"
+  }
+}
